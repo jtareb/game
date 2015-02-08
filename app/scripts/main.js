@@ -40,7 +40,7 @@ var ali = new Player ({
 });
 
 // Monster Instances
-var frasier = new Opponent ({
+var frazier = new Opponent ({
   name: 'Frasier',
   elem: $('.opponent')
 });
@@ -83,13 +83,13 @@ var process_attack = function (attacker, attackee) {
     }
 
   } else {
-      if (attackee instanceof Player) {
+     if (attackee instanceof Player) {
       // You Loose!!
       $('body').empty().css('background', 'url(http://goo.gl/0fmNnb)');
     } else {
       // You Win!!
       $('body').empty().css('background', 'url(http://goo.gl/zeyWpy)');
-    }
 
   }
+}
 };
