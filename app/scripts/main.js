@@ -41,7 +41,7 @@ var ali = new Player ({
 
 // Monster Instances
 var frazier = new Opponent ({
-  name: 'Frasier',
+  name: 'Frazier',
   elem: $('.opponent')
 });
 
@@ -54,7 +54,7 @@ var frazier = new Opponent ({
 
 // Player Attack Action
 attackBTN.on('click', function () {
-  ali.attack(frasier);
+  ali.attack(frazier);
 });
 
 
@@ -93,3 +93,4 @@ var process_attack = function (attacker, attackee) {
   }
 }
 };
+
